@@ -1,6 +1,5 @@
 import './App.css';
 import styled from 'styled-components';
-import Phonebook from './Components/Phonebook/Phonebook';
 
 const Container = styled.div`
   margin: 0 auto;
@@ -11,7 +10,6 @@ const Container = styled.div`
 function App() {
     return (
       <Container>
-        <Phonebook />
       </Container>
     );
 
